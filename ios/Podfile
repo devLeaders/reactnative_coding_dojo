@@ -77,6 +77,8 @@ target 'reactnative_coding_dojo' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+
   target 'reactnative_coding_dojoTests' do
     inherit! :complete
     # Pods for testing
